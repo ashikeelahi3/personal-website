@@ -1,0 +1,124 @@
+h1 {
+    font-size: 30px;
+    font-family: 'Krona One', sans-serif;
+}
+h2{
+    font-size: 25px;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding: 2%;
+}
+.half-width img{
+    width: 100%;
+}
+.leatest-work{
+    width: 25%;
+    float: left;
+    margin: 3%;
+}
+.leatest-work img{
+    width: 100%;
+}
+
+.leatest-work :hover{
+    width: 120%;
+}
+.work-div{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+.color-highlite{
+     color: rgb(245, 53, 92);;
+}
+body{
+    font-family: 'Odibee Sans', cursive;
+    font-family: 'Roboto', sans-serif;
+    color: dimgray;
+    margin: 0px;
+}
+.top-banner{
+    background-image: url(images/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.second-banner{
+    background-image: url(images/biography-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.leatest-banner{
+    background-image: url(images/latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+.client-section{
+    background-image: url(images/footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    padding-bottom: 0;
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, rgb(220, 14, 84), rgba(220, 14, 83, 0.63));
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+
+}
+.link-button:hover{
+    background-image: linear-gradient(45deg, rgb(250, 14, 50), rgba(250, 14, 50, 0.63));
+    padding: 13px 23px;
+    border-radius: 10px;
+}
+
+.link-underline-remove{
+    text-decoration: none;
+}
+
+.e-mail{
+    color: whitesmoke;
+    text-align: center;
+}
+.mail-area{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,  rgb(220, 14, 84), rgba(220, 14, 83, 0.63));
+    padding: 25px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+
+}
+.mail-area:hover{
+    background-image: linear-gradient(45deg, rgb(250, 14, 50), rgba(250, 14, 50, 0.63));
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.margin-p{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.center-align{
+    text-align: center;
+}
+
+
+
+footer p{
+    text-align: center;
+}
+
